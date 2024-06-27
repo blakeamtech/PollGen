@@ -1,0 +1,50 @@
+ul {
+    text-align: center;
+    list-style: none;
+  }
+
+li {
+    border-style: solid;
+    border-color: gold;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    border: 3px solid gold;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: gold;
+    color:black;
+}
+
+.results-button {
+    padding: 10px;
+    margin: 5px;
+}
+
+a:hover {
+    color:black;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+a {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightslategrey;
+    color: gold;
+    font-weight: bold;
+}
+
+li:focus {
+    background-color:gold;
+}
+
+.chosen {
+    color:gold
+}
+
+#pin-msg {
+    font-size: 30px;
+    font-style: italic;
+}
